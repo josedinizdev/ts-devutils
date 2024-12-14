@@ -1,0 +1,12 @@
+export declare const email: RegExp;
+export declare const cartao: RegExp;
+export declare const celular: RegExp;
+export declare const cep: RegExp;
+export declare const certidao: RegExp;
+export declare const chassi: RegExp;
+export declare const cnae: RegExp;
+export declare const cnh: RegExp;
+export declare const cnpj: RegExp;
+export declare const cpf: RegExp;
+export declare const placa: RegExp;
+export declare const rg: RegExp;

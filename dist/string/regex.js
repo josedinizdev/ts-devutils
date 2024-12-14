@@ -1,0 +1,12 @@
+export const email = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+export const cartao = /^\d{4} \d{4} \d{4} \d{4} \d{2}\/\d{2}$ \d{3}/;
+export const celular = /^\(\d{2}\) (\d{5}|\d{4})-\d{4}$/;
+export const cep = /^\d{2}.\d{3}-\d{3}$/;
+export const certidao = /^\d{6}.\d{2}.\d{2}.\d{4}.\d.\d{5}.\d{3}.\d{7}-\d{2}$/;
+export const chassi = /^[1-9]\w{2} \w{6} \w{2} \w{2}\d{4}$/;
+export const cnae = /^\d{4}-\d{1}\/\d{2}$/;
+export const cnh = /^\d{9}-\d{2}$/;
+export const cnpj = /^\d{2}.\d{3}.\d{3}\/\d{4}-\d{2}$/;
+export const cpf = /^\d{3}.\d{3}.\d{3}-\d{2}$/;
+export const placa = /^[A-S][A-Z]{2}-\d{4}$/;
+export const rg = /^[A-Za-z]{2}-\d{2}.\d{3}.\d{3}$/;

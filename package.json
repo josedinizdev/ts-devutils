@@ -1,0 +1,79 @@
+{
+    "name": "ts-devutils",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "private": true,
+    "main": "dist/index.js",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+        },
+        "./math": {
+            "types": "./dist/math/index.d.ts",
+            "default": "./dist/math/index.js"
+        },
+        "./object": {
+            "types": "./dist/object/index.d.ts",
+            "default": "./dist/object/index.js"
+        },
+        "./string": {
+            "types": "./dist/string/index.d.ts",
+            "default": "./dist/string/index.js"
+        },
+        "./types": {
+            "types": "./dist/types/index.d.ts",
+            "default": "./dist/math/index.js"
+        },
+        "./xml": {
+            "types": "./dist/xml/index.d.ts",
+            "default": "./dist/xml/index.js"
+        }
+    },
+    "types": "dist/index.d.ts",
+    "typesVersions": {
+        "*": {
+            "index": [
+                "dist/index.d.ts"
+            ],
+            "math": [
+                "dist/math/index.d.ts"
+            ],
+            "object": [
+                "dist/object/index.d.ts"
+            ],
+            "string": [
+                "dist/string/index.d.ts"
+            ],
+            "types": [
+                "dist/types/index.d.ts"
+            ],
+            "xml": [
+                "dist/xml/index.d.ts"
+            ]
+        }
+    },
+    "scripts": {
+        "build": "tsc",
+        "update-deps": "cd scripts && update-deps.bat"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/josedinizdev/ts-devutils.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/josedinizdev/ts-devutils/issues"
+    },
+    "homepage": "https://github.com/josedinizdev/ts-devutils#readme",
+    "devDependencies": {
+        "@types/node": "^20.4.1",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "ts-devutils": "file:"
+    }
+}
